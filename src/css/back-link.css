@@ -5,7 +5,11 @@
   margin-top: 32px;
   border: 1px solid;
   border-radius: 8px;
+  margin-bottom: 24px;
+  text-decoration: none;
+  color: black;
 }
+
 .back-link::before {
   content: '';
   position: absolute;
@@ -23,6 +27,7 @@
   animation: slide 500ms linear infinite alternate-reverse both;
   animation-play-state: paused;
 }
+
 .back-link:hover::before {
   opacity: 1;
   animation-play-state: running;
